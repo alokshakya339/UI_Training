@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.searching{
+    margin: 20px;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    position:relative;
+}
+.backArrow{
+  position: absolute;
+  left: 16px;
+  font-size:20px;
+  top: 14px;
+}
+.searching input{
+    /* margin: 10px; */
+    text-align: left;
+    max-width: 100%;
+    height: 100%;
+    border-color: #fff;
+    border-style:double;
+    padding: 10px 40px;
+    border: 2px solid #000;
+    width: 100%;
+    border-radius: 20px;
+}

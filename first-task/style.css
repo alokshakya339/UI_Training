@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.head{
+    width: 100%;
+    display: inline-block;
+    padding: 10px;
+    background: #f7f7f7;
+    box-sizing: border-box;
+}
+
+.section{
+    width: 100%;
+    padding: 10px;
+    background: #f7f7f7;
+
+
+}
+
+.headerinfo{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+
+}
+.centerWrapper{
+    max-width: 1080px;
+    padding: 15px 0px;
+    margin: 0 auto;
+}
+.logo{
+    width: auto;
+}
+
+.logo img{
+    max-width: 250px;
+}
+
+.menu{
+    margin-right: auto;
+    width: auto;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0px 0px 0px 60px;
+    align-items: center;
+}
+
+.banner img{
+    max-width: 100%;
+    box-sizing: border-box;
+
+}
+.wrapper{
+    padding: 15px 0px;
+    display: flex;
+}
+
+.wrapper .content{
+    margin: auto 20px;
+    width: 100%;
+}
+
+.content label{
+    display: inline-block;
+    font-size: 16px;
+}
+
+.wrapper .image img{
+    max-width: 100%;
+    border-radius: 30%;
+    
+}
+.secoundSection .wrapper .services{
+    width: 100%;
+    line-height: 20px;
+    background-color: #f7f7f7;
+    border-radius: 5%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-right: 60px;
+}
+.secoundSection .wrapper .services .li{
+    display: flex;
+    text-align: center;
+
+}
+
+.foot{
+    display: flex;
+    max-width: 100%;
+    background-color: grey;
+}
+.foot .list ul {
+    display: flex;
+    list-style: none;
+    color: aliceblue;
+    
+    
+}
+.foot .list ul li{
+    margin: 0px 0px 0px 60px;
+    font-size: 15px;
+}
+
+.foot .copyright{
+    margin: 0px 0px 0px 60px;
+    font-size: 15px;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+
+}
+.foot .logo-img img{
+    max-width: 250px;
+    margin: 0px 139px;
+}
+.wrapper .centerWrapper{
+    width: 100%;
+}
+.list{
+    align-items: center;
+    display: flex;
+}
+
+li{
+    list-style: none;
+}
+.foot .centerWrapper{
+    display: flex;
+}

@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.head{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.head .menu{
+    display: flex;
+    align-items: center;
+    padding: 0px auto;
+}
+.head .centerWrapper .menu .buttons{
+    margin-left: auto;
+}
+
+.bt{ 
+    border-radius: 5px;
+    border-color: #EB4747;
+    text-decoration: none;
+    padding: 10px 31px;
+    margin: 16px;
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    background-color: #EB4747;
+
+}
+.bt:hover{
+    background-color:white;
+    color: #EB4747;
+}
+
+.centerWrapper{
+    max-width: 1080px;
+    margin: 0px auto;
+}
+
+.head .centerWrapper .menu .logo img{
+    max-width: 250px;
+}
+
+.banner .content p{
+    font-size: 18px;
+    color: white;
+}
+.banner .content h2{
+    font-size: 32px;
+    color: white;
+}
+
+.banner .content{
+    margin-right: auto;
+    max-width: 50%;
+    position: relative;
+    padding: 200px 10px;
+}
+.banner{
+    background-image: url("/ReddoorzBusiness/images/banner-2a5f48eab812356bb0b8579454055b8446d4eed2bec847ab2d0445e90c4311a1.png");
+    background-repeat: no-repeat;
+    max-width: 100%;
+    background-size: cover;
+    height: 600px;
+}
+
+
+/* .banner img{
+    position: absolute;
+    z-index: -1;
+    max-width: 100%;
+    width: 100%;
+    margin: 0px auto;
+    box-sizing: border-box;
+} */
+
+.features{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.middleSection .centerWrapper .features .discription{
+    margin: auto;
+    width: 30%;
+}
+.middleSection .centerWrapper .features .discription h1{
+    font-size: 32px;
+}
+.middleSection .centerWrapper .features image{
+    margin: 10px;
+}
+
+
